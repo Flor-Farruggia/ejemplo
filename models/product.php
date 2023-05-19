@@ -1,7 +1,7 @@
 <?php
 //acá van las clases, se creará un avm de producto
 
-class Producto {
+class product {
     public $id;
     public $description;
     public $mark;
@@ -9,11 +9,11 @@ class Producto {
     public $urlImage;
 
     public function allTheProduct(){
-        echo 'id: '.$this->id.<br>;
-        echo 'Description: '.$this->description.<br>;
-        echo 'Mark: '.$this->$mark.<br>;
-        echo 'Price: '.$this->price.<br>;
-        echo 'image: '.$this->urlImage.<br>;
+        echo 'id: '.$this->id;
+        echo '<br> Description: '.$this->description;
+        echo '<br> Mark: '.$this->mark;
+        echo '<br> Price: '.$this->price;
+        echo '<br> image: '.$this->urlImage;
     }
 }
 
